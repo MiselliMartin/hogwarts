@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>🐍HOGW🦁ARTS🦡</title> 
+        <script src="js/hogwarts.js"></script>
+        <link rel="icon" type="image/png" href=fotos/escudohogwarts.png>
+        <link rel="stylesheet" href="./hogwarts.css">
+    </head>
+    <body>
+        <h1 id="titulo"> ¡Escoge tu casa!</h1>
+        <h2 id="sombrero">Ponte el sombrero seleccionador! 🎩</h2>
+        <section >
+            <audio id="gryffindorsound" src="audios/gryffindor.mp3"></audio>
+            <audio id="slytherinsound" src="audios/slytherin.mp3"></audio>
+            <audio id="hufflepuffsound" src="audios/hufflepuff.mp3"></audio>
+            <audio id="ravenclawsound" src="audios/ravenclaw.mp3"></audio>
+            <audio id="musica" src="audios/harry.mp3"></audio>
+        </section>
+        <section id="house">
+           <p id="deGryffindor">
+            <label id="labelgryffindor" class= "casasa" for="gryffindor"> 🔥 Gryffindor! 🦁 <img src="fotos/escudogryffindor.png" alt="Escudo de Gryffindor">
+             </label>
+            <input type="radio" name="casa" id="gryffindor"/>
+        </p>
+            <p id="deSlytherin">
+            <label id="labelslytherin" class= "casasa" for="slytherin">💧 Slytherin! 🐍 <img src="fotos/escudoslytherin.png" alt="Escudo de SLytherin">
+            </label>
+            <input type="radio" name="casa" id="slytherin"/>
+        </p>
+
+        <p id="deHufflepuff">
+            <label id="labelhufflepuff" class= "casasa" for="hufflepuff">🌿 Hufflepuff! 🦡 <img src="fotos/escudohufflepuff.png" alt="Escudo de Hufflepuff">
+             </label>
+            <input type="radio" name="casa" id="hufflepuff"/>
+        </p>
+
+        <p id="deRavenclaw">
+            <label id="labelravenclaw" class= "casasa" for="ravenclaw" > 🌪️ Ravenclaw! 🦅 <img src="fotos/escudoravenclaw.png" alt="Escudo de Ravenclaw">
+            </label>
+            <input type="radio" name="casa" id="ravenclaw"/>
+        </p>
+        </section>
+
+        <p>
+            <button  id="seleccionCasa">Seleccionar </button>
+        </p>
+
+        <p>
+            <img id="escudohogwarts" src="fotos/escudohogwarts.png" alt="Escudo de Hogwarts">
+        </p>
+
+        
+        <section hidden id="chooseGryffindor">
+                
+                <h3 style="font-size: xx-large;" id="tituloGryffindor">Gryffindor 🦁</h3> 
+                <p class="textosgry">La Casa Gryffindor fue fundada por el célebre mago Godric Gryffindor. Godric sólo aceptaba en su casa a aquellos magos y brujas que tenían valentía, disposición, coraje y caballerosidad, ya que éstas son las cualidades de un auténtico Gryffindor. Los colores de esta casa son el dorado y el escarlata y su símbolo es un león. La reliquia más preciada de la casa es la espada de Godric Gryffindor, perteneciente, como su nombre indica, al fundador de la casa. Los estudiantes de esta casa pasan la mayor parte del tiempo en la Torre de Gryffindor, ubicada en el séptimo piso del Castillo de Hogwarts. Su elemento es el fuego.                
+                </p>
+                <img class= "foto1" src="fotos/abajoderechagryffindor.png" alt="Listones de Gryffindor">     
+                <img class= "foto3" src="fotos/textogryffindor.png" alt="Texto de Gryffindor">
+                <img class= "foto2" src="fotos/elegirgryffindor.png" alt="Bandera de Gryffindor">     
+        </section>
+
+        <section hidden id="chooseSlytherin">
+            <h3 style="font-size: xx-large;" id="tituloSlytherin">Slytherin 🐍</h3>
+            <p class="textossly">La Casa Slytherin está caracterizada principalmente por la ambición y la astucia. Fue fundada por el mago Salazar Slytherin. La Sala Común está situada en las mazmorras, pasando por un serie de numerosos pasillos subterráneos. Posiblemente se llega a ellos a través del Vestíbulo de Hogwarts . Específicamente se encuentra debajo del Lago Negro, haciendo que la sala común sea fría y con una tonalidad verdosa, ya que hay ventanas que dan a las aguas. Se accede a ella por una puerta altamente disimulada en un muro de piedra, diciendo una contraseña requerida. La única conocida es "Sangre Pura". Su principal reliquia es el guardapelo de Salazar Slytherin. El animal representativo es la serpiente, sus colores son verde y plateado y el elemento es el agua, asociada con la astucia y la frialdad.</p>
+            <img class= "foto1" src="fotos/abajoderechaslytherin.png" alt="Listones de Slytherin">
+            <img class= "foto2" src="fotos/elegirslytherin.png" alt="Bandera de Slytherin">
+            <img class= "foto3" src="fotos/textoslytherin.png" alt="Texto de Slytherin">  
+        </section>
+
+        <section hidden id="chooseHufflepuff">
+            <h3 style="font-size: xx-large;" id="tituloHufflepuff">Hufflepuff 🦡</h3>
+            <p class="textoshuf">La Sala Común de Hufflepuff se encuentra en una bodega en el mismo pasillo subterráneo que la cocina. Inicialmente, Hufflepuff buscaba alumnos que simplemente quisieran pertenecer a esa casa, aunque actualmente busca alumnos leales, honestos y que no teman el trabajo pesado. La fundadora es nada menos que la bruja Helga Hufflepuff, amiga desde la infancia de Rowena Ravenclaw. Helga fue una bruja muy noble, amigable y la principal impulsora de que Hogwarts aceptase a alumnos nacidos de muggles. La principal reliquia de la casa es la copa de Helga Hufflepuff. El símbolo de la casa es un tejón negro y sus colores representativos son el amarillo y el negro carbón. Su elemento es la tierra.</p>
+            <img class= "foto1" src="fotos/abajoderechahufflepuff.png" alt="Listones de Hufflepuff">
+            <img class= "foto2" src="fotos/elegirhufflepuff.png" alt="Bandera de Hufflepuff">
+            <img class= "foto3" src="fotos/textohufflepuff.png" alt="Texto de Hufflepuff">
+        </section>
+
+        <section hidden id="chooseRavenclaw">
+            <h3 style="font-size: xx-large;" id="tituloRavenclaw">Ravenclaw 🦅</h3>
+            <p class="textosrav">La Casa Ravenclaw se encuentra en una torre en el ala oeste del castillo. En la entrada se encuentra una estatua con forma de águila que dice acertijos y sólo te deja entrar si lo resuelves. Sus colores son el azul y el bronce. Ravenclaw busca alumnos creativos, curiosos y que siempre busquen la respuesta. Fue fundada por la bruja, nacida en las cañadas de Escocia, Rowena Ravenclaw. Supuestamente es la principal inventora del nombre, lugar y formato de Hogwarts. También es la causante de que las escaleras se muevan. Su principal reliquia es la diadema de Rowena Ravenclaw. El símbolo de la casa es el águila, aunque en alguna versión del escudo es un cuervo. Su elemento es el aire.</p>
+            <img class= "foto1" src="fotos/abajoderecharavenclaw.png" alt="Listones de Ravenclaw">
+            <img class= "foto4" src="fotos/banderinravenclaw.png" alt="Bandera de Ravenclaw">
+            <img class= "foto3" src="fotos/textoravenclaw.png" alt="Texto de Ravenclaw">
+        </section>
+    
+        <section hidden id="attack">
+            <h2 id="stop">Piensa</h2>
+            <h2>⚔️</h2>
+            <h3 id="how">¿Cómo vas a atacar?</h3>
+            <button style="font-size: larger;background-color: red" id="ataqueExpelliarmus">Expelliarmus! 🔥</button>
+            <button style="font-size: larger;background-color: green" id="ataqueAvada">Avada Kedavra! 💧</button>
+            <button style="font-size: larger;background-color: yellow" id="ataqueProtego">Protego! 🌿</button>
+        </section>
+        
+        <section id="messages">
+         <p>Tu casa <span style="font-size: larger;" id="casaElegida"></span> tiene <span id="vidasPropias">3 </span> vidas restantes.</p>
+
+        <p>La casa rival <span style="font-size: larger;" id="casaAleatoria"></span> tiene <span id="vidasAjenas">3 </span> vidas restantes. </p>
+        
+    </section>
+    
+        <section style="background-color: #6b118f; size: auto; "  id="batalla">
+            <audio id="protegoHG" src="audios/protegoHG.mp3"></audio>
+            <audio id="avadakedavraAM" src="audios/avadakedavraAM.mp3"></audio>
+            <audio id="avadakedavraBL" src="audios/avadakedavraBL.mp3"></audio>
+            <audio id="avadakedavraLV" src="audios/avadakedavraLV.mp3"></audio>
+            <audio id="avadakedavraSS" src="audios/avadakedavraSS.mp3"></audio>
+            <audio id="expelliarmusAD" src="audios/expelliarmusAD.mp3"></audio>
+            <audio id="expelliarmusCD" src="audios/expelliarmusCD.mp3"></audio>
+            <audio id="expelliarmusHG" src="audios/expelliarmusHG.mp3"></audio>
+            <audio id="expelliarmusHP" src="audios/expelliarmusHP.mp3"></audio>
+            <audio id="expelliarmusLL" src="audios/expelliarmusLL.mp3"></audio>
+            <audio id="expelliarmusRL" src="audios/expelliarmusRL.mp3"></audio>
+        </section>
+
+        <section style="font-size: xx-large;" id="resultadoFinal">
+
+        </section>
+
+        <section id="reinciar">
+            <button id="reinicio">Reiniciar</button>
+
+        </section>
+    </body>
+</html>

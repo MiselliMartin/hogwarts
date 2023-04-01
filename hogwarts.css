@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Mynerve&display=swap');
+
+#titulo {
+    color:rgb(56, 10, 99);
+    font-family: 'Mynerve', cursive;
+    font-style: oblique;
+    text-align: center;
+}
+
+#sombrero {
+    color: white;
+}
+
+body {
+    color: white;
+    background-image: url(hogwarts.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Mynerve', cursive;
+    min-height: 100vh;
+    }
+
+#sombrero {
+    text-align: center;
+}
+ 
+#house {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+}
+
+
+label.casasa {
+    size: x-large;
+    width:200px;
+    height:200px;
+    background:#11468f;
+    padding:10px;
+    box-sizing:border-box;
+    border-radius:20px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:#fff;
+    border-radius: 20px;
+    flex-direction: column;
+    text-align: center;
+  }
+
+#house img {
+    max-width: 100px;
+    max-height: 100px;
+  }
+
+.casasa:active {
+    background-color: gold;
+}
+
+#deGryffindor {
+    color:red;
+    
+    /*margin-right: 32px;
+    margin-left: 32px;*/
+
+}
+
+
+#deSlytherin {
+    color:green;
+ 
+    /*margin-right: 32px;
+    margin-left: 32px;*/
+}
+
+#deHufflepuff {
+    color:yellow;
+    
+    /*margin-right: 32px;
+    margin-left: 32px;*/
+}
+
+#deRavenclaw {
+    color:blue;
+    
+   /* margin-right: 32px;
+    margin-left: 32px;*/
+}
+
+#seleccionCasa {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+#escudohogwarts {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+}
+
+
+#tituloSlytherin {
+    color: green;
+    text-shadow: -1.5px -1.5px 1px #000;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#tituloHufflepuff {
+    color: yellow;
+    text-shadow: -1.5px -1.5px 1px #000;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#tituloGryffindor {
+    color: red;
+    text-shadow: -1.5px -1.5px 1px #000;
+    text-align: center;
+}
+
+#tituloRavenclaw {
+    color: blue;
+    text-shadow: -1.5px -1.5px 1px #000;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#attack {
+    text-align: center
+}
+
+#messages {
+    text-align: center
+}
+
+#resultadoFinal {
+    text-align: center
+}
+
+#reinicio {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#batalla {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: auto;
+    border-radius: 20px;
+    border-color: rgb(148, 40, 148);
+    background-color: rgba(233, 132, 233, 0.2); /* Establecer un color de fondo con una opacidad del 20% */
+  }
+
+.foto1 {
+    position: fixed;
+    bottom: -20px;
+    right: -28px;
+    width: 200px;
+    height: 200px;
+}
+
+.foto2 {
+    position: fixed;
+    top: 0;
+    right: -40px;
+    width: 350px;
+    height: 500px;
+}
+
+.foto3 {
+    position: fixed;
+    top: 0;
+    left: -16px;
+    width: 400px;
+    height: 200px;
+}
+
+.foto4 {
+    position: fixed;
+    top: -100px;
+    right: -150px;
+    width: 500px;
+    height: 400px;
+}
+
+.textosgry {
+    background-color: red;
+    text-align: center;
+    width: 400px;
+    position: relative;
+    left: 50%; 
+    top: 100px; 
+    transform: translate(-50%, -50%);
+}
+
+.textossly {
+    background-color: green;
+    text-align: center;
+    width: 400px;
+    position: relative;
+    left: 50%; 
+    top: 110px; 
+    transform: translate(-50%, -50%);
+}
+
+.textoshuf {
+    background-color: #aaaa29;
+    text-align: center;
+    width: 400px;
+    position: relative;
+    left: 50%; 
+    top: 100px; 
+    transform: translate(-50%, -50%);
+}
+
+.textosrav {
+    background-color: blue;
+    text-align: center;
+    width: 400px;
+    position: relative;
+    left: 50%; 
+    top: 100px; 
+    transform: translate(-50%, -50%);
+}
+
+input {
+    display: none;
+}
